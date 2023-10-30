@@ -1,0 +1,79 @@
+.f1{
+	width: 15%;
+	height: 15vh;
+background-color: darkgreen;
+
+}
+.f1 img{
+width:80px;
+margin:0px;
+height:auto;
+}
+#buscar{
+	font-size: 2.3vh;
+	border-radius: 1vh;
+	border-style: none;
+}
+.f2{
+	width: 85%;
+	height: 15vh;
+	background-color: darkgreen;
+}
+
+.f3{
+	width: 100%;
+	height: 25vh;
+	background-color: lightgrey;
+}
+
+.f3 img{
+	margin: 12px;
+	width:30%;
+align-items: center;
+height:auto;
+}
+.f4{
+	width: 30%;
+	height: auto;
+	margin: 60px;
+	background-color: green;
+}
+.f4 img{
+	width: auto;
+	height: 80vh;
+	margin: 0px;
+}
+.f5{
+	width: 30%;
+	height: 60vh;
+
+}
+.f5 img{
+	width: auto;
+	height: 28vh;
+	margin: 60px;
+	text-align:left;
+
+}
+.f6{
+	width: 70%;
+	height: 60vh;
+
+}
+.f7{
+	width: 100%;
+	height: 20vh;
+	background-color: darkgreen;
+}
+.pai{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	text-align: center; 
+
+	display: flex; /*transformar um pai em flex container*/
+	flex direction: row; /* definir a direção dos filhos*/
+	flex-wrap: wrap; /* permite ou nao a quebra de linha*/
+	justify-content: space-between; /*alinha os filhos na direção do eixo principal*/
+	align-items: flex-start; /*alinha os filhos na direção do eixo secundário (cross axis)*/
+}
